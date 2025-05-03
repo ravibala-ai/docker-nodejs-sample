@@ -32,3 +32,4 @@ RUN --mount=type=bind,source=package.json,target=package.json \
 USER node
 COPY . .
 RUN npm run test
+
